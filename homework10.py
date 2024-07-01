@@ -11,7 +11,6 @@ lst1 += ['0'] * 10
 random.shuffle(lst1)
 data = pd.DataFrame({'robot':lst,'human':lst1})
 data.head()
-
 print(data)
 
 
